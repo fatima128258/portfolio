@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="750" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED"/>
+      <stop offset="0.5" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)"/>
+  <circle cx="920" cy="180" r="120" fill="white" fill-opacity="0.12"/>
+  <rect x="120" y="160" width="700" height="430" rx="28" fill="white" fill-opacity="0.9"/>
+  <rect x="160" y="210" width="280" height="160" rx="18" fill="#DBEAFE"/>
+  <rect x="470" y="210" width="300" height="70" rx="14" fill="#EDE9FE"/>
+  <rect x="470" y="300" width="300" height="70" rx="14" fill="#CFFAFE"/>
+  <rect x="160" y="400" width="610" height="140" rx="18" fill="#F8FAFC"/>
+  <text x="120" y="650" fill="white" font-family="Arial, sans-serif" font-size="40" font-weight="700">Digital Academy</text>
+</svg>

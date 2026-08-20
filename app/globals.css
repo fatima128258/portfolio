@@ -1,0 +1,116 @@
+@import "tailwindcss";
+@import "../styles/tokens.css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-card: var(--card);
+  --color-primary: var(--primary);
+  --color-primary-light: var(--primary-light);
+  --color-secondary: var(--secondary);
+  --color-secondary-light: var(--secondary-light);
+  --color-accent: var(--accent);
+  --color-accent-light: var(--accent-light);
+
+  --font-sans: var(--font-sans);
+  --font-display: var(--font-display);
+  --font-mono: var(--font-mono);
+}
+
+/* ─── Essential Keyframes ─────────────────────────────────── */
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+@keyframes marquee-reverse {
+  from { transform: translateX(-50%); }
+  to   { transform: translateX(0); }
+}
+
+/* ─── Base ───────────────────────────────────────────────── */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #eef2ff;
+  background-image:
+    radial-gradient(ellipse 80% 60% at 10% 0%,   rgba(37, 99, 235, 0.13) 0%, transparent 55%),
+    radial-gradient(ellipse 60% 50% at 90% 5%,   rgba(124,58, 237, 0.10) 0%, transparent 50%);
+  background-attachment: fixed;
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+.dark body {
+  background-color: #090e1a;
+  background-image: none;
+  background-attachment: fixed;
+}
+
+button,
+[role="button"],
+input[type="submit"],
+input[type="button"] {
+  cursor: pointer;
+}
+
+button:disabled,
+[role="button"][aria-disabled="true"],
+input[type="submit"]:disabled,
+input[type="button"]:disabled {
+  cursor: not-allowed;
+}
+
+::selection {
+  background: color-mix(in oklab, var(--primary) 28%, transparent);
+  color: var(--foreground);
+}
+
+*:focus-visible {
+  outline: 2px solid color-mix(in oklab, var(--primary) 70%, white);
+  outline-offset: 2px;
+}
+
+.font-display {
+  font-family: var(--font-display), var(--font-sans), system-ui, sans-serif;
+}
+
+/* ─── Animation Utilities ───────────────────────────────── */
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-marquee {
+  animation: marquee 40s linear infinite;
+}
+
+.animate-marquee-reverse {
+  animation: marquee-reverse 40s linear infinite;
+}
+
+.ticker-wrapper:hover .animate-marquee,
+.ticker-wrapper:hover .animate-marquee-reverse {
+  animation-play-state: paused;
+}
+
+/* ─── Form inputs ────────────────────────────────────────── */
+
+input, textarea {
+  background: var(--card);
+  color: var(--foreground);
+}

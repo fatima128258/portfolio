@@ -1,0 +1,87 @@
+:root {
+  /* Base surfaces */
+  --background: #eef2ff;
+  --foreground: #0f172a;
+  --muted: #e8edf8;
+  --muted-foreground: #5a6a8a;
+  --border: #d0d9f0;
+  --card: #ffffff;
+
+  /* Brand colors */
+  --primary: #2563eb;
+  --primary-light: #3b82f6;
+  --secondary: #7c3aed;
+  --secondary-light: #8b5cf6;
+  --accent: #0891b2;
+  --accent-light: #06b6d4;
+
+  /* Status */
+  --success: #16a34a;
+  --warning: #d97706;
+  --error: #dc2626;
+
+  /* Glass */
+  --glass: rgba(255, 255, 255, 0.72);
+  --glass-border: rgba(99, 102, 241, 0.18);
+
+  /* Gradient stops */
+  --gradient-start: #eef2ff;
+  --gradient-mid: #f0ebff;
+  --gradient-end: #e0f2fe;
+
+  /* Section tints — alternating warm-cool for visual rhythm */
+  --section-blue:   #eef2ff;
+  --section-purple: #f3efff;
+  --section-cyan:   #e8f7fb;
+  --section-indigo: #edf1ff;
+  --section-pink:   #f5f0ff;
+
+  /* Glow colors */
+  --glow-primary:   rgba(37,  99, 235, 0.22);
+  --glow-secondary: rgba(124, 58, 237, 0.18);
+  --glow-accent:    rgba(8,  145, 178, 0.18);
+}
+
+.dark {
+  /* Base surfaces */
+  --background: #090e1a;
+  --foreground: #f1f5f9;
+  --muted: #0f172a;
+  --muted-foreground: #94a3b8;
+  --border: #1e293b;
+  --card: #0f172a;
+
+  /* Brand colors */
+  --primary: #3b82f6;
+  --primary-light: #60a5fa;
+  --secondary: #8b5cf6;
+  --secondary-light: #a78bfa;
+  --accent: #22d3ee;
+  --accent-light: #67e8f9;
+
+  /* Status */
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --error: #ef4444;
+
+  /* Glass */
+  --glass: rgba(15, 23, 42, 0.8);
+  --glass-border: rgba(99, 102, 241, 0.12);
+
+  /* Gradient stops */
+  --gradient-start: #090e1a;
+  --gradient-mid: #0f172a;
+  --gradient-end: #0a0e1a;
+
+  /* Section tints */
+  --section-blue:   #090e1a;
+  --section-purple: #0f0a1e;
+  --section-cyan:   #060d1a;
+  --section-indigo: #080d1c;
+  --section-pink:   #0f0918;
+
+  /* Glow colors */
+  --glow-primary:   rgba(59, 130, 246, 0.15);
+  --glow-secondary: rgba(139, 92, 246, 0.12);
+  --glow-accent:    rgba(34, 211, 238, 0.12);
+}

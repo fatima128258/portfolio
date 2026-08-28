@@ -234,6 +234,29 @@ export const projects: Project[] = [
     category: "Education", 
   },    
   {
+    id: "ajaia-docs",
+    title: "Ajaia Docs",
+    subtitle: "Edit · Collaborate · Share",
+    description:
+      "A full-stack document editing and collaboration platform built with Next.js, React, TypeScript, Tiptap, Prisma, and Supabase PostgreSQL.",
+    longDescription:
+      "Ajaia Docs is a full-stack document editing and collaboration platform built with Next.js, React, TypeScript, Tiptap, Prisma, and Supabase PostgreSQL. It allows users to sign up, log in, create and edit rich-text documents, and securely save their work. Users can also share documents through email with Viewer or Editor permissions, while session-based authentication and server-side authorization help keep documents and user access secure. The platform features a powerful rich-text editor powered by Tiptap, supporting formatting, headings, lists, and media embedding — giving users a smooth writing and editing experience. Document sharing is built in, letting owners invite collaborators via email and assign permission levels to control who can view or edit. Authentication is handled through session-based flows, and server-side authorization ensures that only permitted users can access or modify protected documents. Prisma manages the database layer on top of Supabase PostgreSQL, providing reliable data persistence and type-safe queries. Overall, Ajaia Docs combines a modern editing experience with secure collaboration and robust backend architecture.",
+    image: "/assets/projects/text.png",
+    techStack: ["Next.js", "React", "TypeScript", "Tiptap", "Prisma", "Supabase PostgreSQL"],
+    features: [
+      "Rich-text editor powered by Tiptap with formatting support",
+      "User sign-up and session-based authentication",
+      "Document creation, editing, and secure saving",
+      "Email-based document sharing with Viewer or Editor permissions",
+      "Server-side authorization for document access control",
+      "Prisma ORM with Supabase PostgreSQL for data persistence",
+      "Collaborative workflow with role-based permission management",
+    ],
+    liveUrl: "https://doc-one-sand.vercel.app/",
+    githubUrl: "",
+    category: "Productivity",
+  },
+  {
     id: "learn-hub",
     title: "Learn Hub",
     subtitle: "Courses · Quizzes · Timed Assessments",

@@ -100,10 +100,10 @@ export function Projects() {
                         rel="noopener noreferrer"
                         onClick={(e) => e.stopPropagation()}
                       >
-                        {/* <Button size="sm" variant="ghost">
+                        <Button size="sm" variant="ghost">
                           <ExternalLink className="h-4 w-4" />
                           Demo
-                        </Button> */}
+                        </Button>
                       </a>
                     </div>
                   </div>
@@ -164,13 +164,11 @@ export function Projects() {
                 target="_blank"   
                 rel="noopener noreferrer"
               >
-                {/* <Button variant="outline">
+                <Button variant="outline">
                   <ExternalLink className="h-4 w-4" />
                   Live Demo
-                </Button>  */}
-                <Button>
-                  demo
-                </Button>
+                </Button> 
+               
               </a>
             </div>
           </div>

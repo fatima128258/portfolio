@@ -77,7 +77,7 @@ export function Projects() {
                         {project.subtitle}
                       </p>
                     </div>
-                    <p className="flex-1 text-sm leading-relaxed text-muted-foreground">
+                    <p className="h-12 text-sm leading-relaxed text-muted-foreground">
                       {project.description}
                     </p>
                     <div className="flex flex-wrap gap-2">

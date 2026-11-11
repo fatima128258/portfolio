@@ -100,7 +100,7 @@ export function Projects() {
                         rel="noopener noreferrer"
                         onClick={(e) => e.stopPropagation()}
                       >
-                        <Button size="sm" variant="ghost">
+                        <Button size="sm">
                           <ExternalLink className="h-4 w-4" />
                           Demo
                         </Button>

@@ -68,7 +68,7 @@ export function Projects() {
               >
                 <Card className="group flex h-full flex-col overflow-hidden p-4">
                   <ProjectVisual project={project} />
-                  <div className="mt-5 flex flex-1 flex-col space-y-3 px-0.5 pb-0.5">
+                  <div className="mt-5 flex flex-1 flex-col space-y-4 px-0.5 pb-0.5">
                     <div>
                       <h3 className="font-display text-xl font-semibold text-foreground">
                         {project.title}
@@ -77,7 +77,7 @@ export function Projects() {
                         {project.subtitle}
                       </p>
                     </div>
-                    <p className="h-12 text-sm leading-relaxed text-muted-foreground">
+                    <p className="text-sm leading-relaxed text-muted-foreground">
                       {project.description}
                     </p>
                     <div className="flex flex-wrap gap-2">

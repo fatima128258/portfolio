@@ -194,7 +194,7 @@ export const projects: Project[] = [
     title: "Personal Study Mentor",
     subtitle: "Plan · Quiz · Revise · Track Progress",
     description:
-      "One calm study workspace for your semester — plan sessions, take quizzes, manage notes and goals, and track progress without juggling apps.",
+      "One calm study workspace for your semester — plan sessions, take quizzes, and track progress.",
     longDescription:
       "Personal Study Mentor is a full study companion that brings subjects, topics, tasks, quizzes, notes, goals, reminders, reports, and a rule-based Study Assistant into one account. Students can schedule sessions, review weak topics, and stay on track with a unified dashboard built for real coursework.",
     image: "/assets/projects/personal-study-mentor.png",
@@ -215,7 +215,7 @@ export const projects: Project[] = [
     title: "Bright Future",
     subtitle: "Admin · Dashboard · Management", 
     description:
-      "A comprehensive school management system with an admin dashboard for managing students, staff, attendance, subjects, fees, and portal features.",
+      "A comprehensive school management system with admin dashboard for managing students, staff, and fees.",
     longDescription:
       "Bright Future is a full-featured school management system designed for principals and administrators. The admin dashboard provides oversight of total students, staff members, subjects offered, and pending fees. It streamlines school operations through centralized student portal features, attendance tracking, and staff role-based access management. For testing, use credentials: **test@gmail.com** / **test12345**",
     image: "/assets/projects/school.png",
@@ -238,15 +238,15 @@ export const projects: Project[] = [
     title: "LearnFlow",
     subtitle: "Multi-Tenant Learning Management System",
     description:
-      "A full-stack, multi-tenant LMS for structured course delivery, assessments, progress tracking, and organization-wide learning analytics.",
+      "A full-stack, multi-tenant LMS for structured course delivery, assessments, and learning analytics.",
     longDescription:
       "LearnFlow is a full-stack, multi-tenant learning management system built with Next.js, React, TypeScript, Node.js, Express, Prisma, and PostgreSQL. It supports role-based learning workflows for students, instructors, organizations, and admins, with secure authentication, course management, assessments, progress tracking, purchasing, communication, and production-ready infrastructure.",
     image: "/assets/projects/learn-flow.png",
     techStack: [
       "Next.js",
+      "Node.js",
       "React",
       "TypeScript",
-      "Node.js",
       "Express",
       "Prisma",
       "PostgreSQL",
@@ -272,7 +272,7 @@ export const projects: Project[] = [
     title: "Green Basket",
     subtitle: "Marketplace · Local Shops · E-commerce",
     description:
-      "A neighborhood marketplace platform connecting local stores with shoppers — browse products, find nearby stores, and shop fresh from trusted local businesses.",
+      "A neighborhood marketplace connecting local stores with shoppers to browse and buy fresh products.",
     longDescription:
       "Green Basket is a modern e-commerce marketplace designed for local shopping. It enables customers to browse products from neighborhood stores, discover nearby shopping locations, and support local businesses. The platform features an intuitive product search, store locator functionality, and a seamless shopping experience that brings fresh finds from local vendors directly to shoppers.",
     image: "/assets/projects/green-basket.svg",
@@ -294,7 +294,7 @@ export const projects: Project[] = [
     title: "Al-Qadir Swings",
     subtitle: "Park · Recreation · Community",
     description:
-      "A community park and recreational facility showcase featuring amenities, booking system, and visitor engagement.",
+      "A community park and recreational facility showcase with amenities and visitor engagement features.",
     longDescription:
       "Al-Qadir Swings is a modern web platform for a community park and recreational space. It showcases park amenities, allows visitors to explore facilities, and provides a seamless experience for community members to engage with local recreation.",
     image: "/assets/projects/alqadir.png",
@@ -315,7 +315,7 @@ export const projects: Project[] = [
     title: "Ajaia Docs",
     subtitle: "Edit · Collaborate · Share",
     description:
-      "A full-stack document editing and collaboration platform built with Next.js, React, TypeScript, Tiptap, Prisma, and Supabase PostgreSQL.",
+      "A full-stack document editing platform with rich-text editor and email-based collaboration features.",
     longDescription:
       "Ajaia Docs is a full-stack document editing and collaboration platform built with Next.js, React, TypeScript, Tiptap, Prisma, and Supabase PostgreSQL. It allows users to sign up, log in, create and edit rich-text documents, and securely save their work. Users can also share documents through email with Viewer or Editor permissions, while session-based authentication and server-side authorization help keep documents and user access secure. The platform features a powerful rich-text editor powered by Tiptap, supporting formatting, headings, lists, and media embedding — giving users a smooth writing and editing experience. Document sharing is built in, letting owners invite collaborators via email and assign permission levels to control who can view or edit. Authentication is handled through session-based flows, and server-side authorization ensures that only permitted users can access or modify protected documents. Prisma manages the database layer on top of Supabase PostgreSQL, providing reliable data persistence and type-safe queries. Overall, Ajaia Docs combines a modern editing experience with secure collaboration and robust backend architecture.",
     image: "/assets/projects/text.png",
@@ -338,7 +338,7 @@ export const projects: Project[] = [
     title: "Learn Hub",
     subtitle: "Courses · Quizzes · Timed Assessments",
     description:
-      "An online learning platform with course content and timed MCQ quizzes — track marks, manage attempts, and practice under a countdown timer.",
+      "An online learning platform with course content and timed MCQ quizzes for structured practice.",
     longDescription:
       "Learn Hub is an online learning platform focused on structured courses and assessments. Learners can take timed multiple-choice quizzes with clear scoring, option sets, and a calm quiz interface designed for focused practice across subjects like HTML and more.",
     image: "/assets/projects/learn-hub.png",

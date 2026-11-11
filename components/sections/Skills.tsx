@@ -69,7 +69,7 @@ export function Skills() {
           <SectionHeading
             eyebrow="Skills"
             title="Technical toolkit"
-            description="Technologies I use to design, build, and ship reliable web applications."
+            description="Technologies I use to build, design and ship reliable web applications."
             align="left"
           />
           <div className="flex flex-wrap justify-center gap-5">

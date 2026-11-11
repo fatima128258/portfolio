@@ -59,7 +59,7 @@ export function Projects() {
           description="Three product-focused builds spanning personal study tools, school management, and online learning."
         />
 
-        <Stagger className="mx-auto grid max-w-4xl gap-6 md:grid-cols-2" delay={0.06}>
+        <Stagger className="mx-auto grid max-w-6xl gap-6 md:grid-cols-3" delay={0.06}>
           {projects.map((project) => (
             <StaggerItem key={project.id}>
               <div 
